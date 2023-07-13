@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center" id="container">
+    <div class="row" id="row">
+      <div class="col-md-6 text-center" id="left-container">
+        <h5 id="result-content">Your Result</h5>
+        <div id="circular">
+          <div id="circular-main-content">
+            76
+          </div>
+          <div id="circular-secondary-content">
+            of 100
+          </div>
+        </div>
+        <p id="great-content">Great</p>
+        <p id="percentage-content">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+
+      <div class="col-md-6 text-start" id="right-container">
+        <h5 id="summary-title">Summary</h5>
+        <div class="summary-elements">
+          <div class="reaction-element">
+            <div class="reaction-heading">
+
+              <img src="./assets//images//icon-reaction.svg" alt="">
+              <span>Reaction</span>
+            </div>
+            <span class="reaction-score">80 <span class="grey">/ 100</span></span>
+          </div>
+
+
+          <div class="memory-element">
+            <div class="memory-heading">
+
+              <img src="./assets//images//icon-memory.svg" alt="">
+              <span>Memory</span>
+            </div>
+            <span class="memory-score">92 <span class="grey">/ 100</span></span>
+          </div>
+
+
+          <div class="verbal-element">
+            <div class="verbal-heading">
+
+              <img src="./assets//images//icon-verbal.svg" alt="">
+              <span>Verbal</span>
+            </div>
+            <span class="verbal-score">61 <span class="grey">/ 100</span></span>
+          </div>
+
+
+          <div class="visual-element">
+            <div class="visual-heading">
+
+              <img src="./assets//images//icon-visual.svg" alt="">
+              <span>Visual</span>
+            </div>
+            <span class="visual-score">72 <span class="grey">/ 100</span></span>
+          </div>
+
+
+        </div>
+
+        <button class="continue-btn">Continue</button>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
